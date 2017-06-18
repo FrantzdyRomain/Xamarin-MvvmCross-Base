@@ -1,0 +1,7 @@
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/bin/Debug/Base.Localization.dll
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/bin/Debug/Base.Localization.pdb
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/obj/Debug/Base.Localization.Strings.resources
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/obj/Debug/Base.Localization.csproj.GenerateResource.Cache
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/obj/Debug/Base.Localization.csproj.CoreCompileInputs.cache
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/obj/Debug/Base.Localization.dll
+/Users/frantzdyromain/Projects/Xamarin/MvvmCross-Base/Base/Base.Localization/obj/Debug/Base.Localization.pdb
