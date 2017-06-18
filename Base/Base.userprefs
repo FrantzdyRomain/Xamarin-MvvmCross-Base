@@ -1,15 +1,14 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="BaseProject.Core/AppStart.cs">
+﻿<Properties StartupConfiguration="{D736264F-CD55-4AAD-94C3-87730B41A6D2}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Base.iOS/Views/TipViewController.cs">
     <Files>
-      <File FileName="BaseProject.Core/Services/Interfaces/ISampleCalculation.cs" Line="4" Column="47" />
-      <File FileName="BaseProject.Core/Services/SampleCalculationService.cs" Line="2" Column="1" />
-      <File FileName="BaseProject.Core/ViewModels/SampleCalculationViewModel.cs" Line="11" Column="20" />
-      <File FileName="BaseProject.Core/ViewModels/BaseViewModel.cs" Line="7" Column="60" />
-      <File FileName="BaseProject.Core/Utilities/Timer.cs" Line="1" Column="1" />
       <File FileName="BaseProject.Core/App.cs" Line="29" Column="38" />
       <File FileName="Base.Localization/Strings.resx" Line="1" Column="1" />
       <File FileName="Base.Localization/Strings.Designer.cs" Line="33" Column="50" />
-      <File FileName="BaseProject.Core/AppStart.cs" Line="5" Column="35" />
+      <File FileName="BaseProject.Core/AppStart.cs" Line="9" Column="91" />
+      <File FileName="Base.iOS/AppDelegate.cs" Line="7" Column="1" />
+      <File FileName="Base.iOS/Setup.cs" Line="17" Column="4" />
+      <File FileName="Base.iOS/Views/TipViewController.cs" Line="7" Column="68" />
+      <File FileName="BaseProject.Core/ViewModels/SampleCalculationViewModel.cs" Line="7" Column="44" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -17,5 +16,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Base.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.D6C39A81-A46A-49B4-A2F6-5B1B1A4A4D26" />
   <MultiItemStartupConfigurations />
 </Properties>
