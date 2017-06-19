@@ -7,6 +7,7 @@ namespace BaseProject.Core.ViewModels
     public class SampleCalculationViewModel : BaseViewModel
     {
 		readonly ISampleCalculationService _calculationService;
+        readonly INewsLoadingService _newsloadingService;
 
 		double _subTotal;
 		public double SubTotal
@@ -55,6 +56,7 @@ namespace BaseProject.Core.ViewModels
 		public SampleCalculationViewModel()
         {
             _calculationService = Mvx.Resolve<ISampleCalculationService>();
+            _newsloadingService = Mvx.Resolve<INewsLoadingService>(); 
         }
 
 		private void Recalculate()

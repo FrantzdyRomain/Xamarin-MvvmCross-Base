@@ -36,6 +36,8 @@
     <Compile Include="Utilities\Timer.cs" />
     <Compile Include="App.cs" />
     <Compile Include="AppStart.cs" />
+    <Compile Include="Services\Interfaces\INewsLoadingService.cs" />
+    <Compile Include="Services\NewsLoadingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Newtonsoft.Json">

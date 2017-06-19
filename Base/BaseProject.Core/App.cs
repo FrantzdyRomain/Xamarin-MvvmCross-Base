@@ -7,7 +7,7 @@ using MvvmCross.Platform;
 using MvvmCross.Localization;
 using MvvmCross.Plugins.ResxLocalization;
 using Base.Localization;
-
+using BaseProject.Core.ViewModels;
 namespace BaseProject.Core
 {
     public class App : MvxApplication
@@ -24,9 +24,10 @@ namespace BaseProject.Core
 			//Register your Repositories. Any repository classes used for caching results from API services ending with Repositoty will be registered
 			typeof(ISampleCalculationService).GetTypeInfo().Assembly.CreatableTypes().EndingWith("Repositoty").AsInterfaces().RegisterAsLazySingleton();
 
-            //Mvx.RegisterSingleton<IMvxTextProvider>(new MvxResxTextProvider(Strings.ResourceManager));
-
-            RegisterAppStart(new AppStart());
+			//Mvx.RegisterSingleton<IMvxTextProvider>(new MvxResxTextProvider(Strings.ResourceManager));
+			 
+			Mvx.RegisterSingleton<IMvxAppStart>(new MvxAppStart<SampleCalculationViewModel>());
+            //RegisterAppStart(new AppStart());
 		}
     }
 }

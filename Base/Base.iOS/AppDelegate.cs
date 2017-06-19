@@ -4,6 +4,7 @@ using MvvmCross.iOS.Platform;
 using MvvmCross.iOS.Views.Presenters;
 using MvvmCross.Platform;
 using MvvmCross.Core.ViewModels;
+using AVFoundation;
 
 namespace Base.iOS
 {
@@ -37,6 +38,8 @@ namespace Base.iOS
 			startup.Start();
 
 			Window.MakeKeyAndVisible();
+
+            AVAuthorizationStatus authStatus = AVCaptureDevice.GetAuthorizationStatus(AVMediaType.Video);
 
             return true;
         }
